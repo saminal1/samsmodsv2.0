@@ -1,0 +1,34 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+bank_01,POI,POIName,,x,Conningwealth Bank
+body_shop_01,POI,POIName,,x,Barely Holden Cars
+business_burnt_02,POI,POIName,,x,Xedeffen's Milkery
+commercial_site_01,POI,POIName,,x,Oceania Produce
+commercial_strip_03,POI,POIName,,x,Stashconverters
+countrytown_business_09,POI,POIName,,x,Video Ezy
+countrytown_business_14,POI,POIName,,x,Grundy's Pub
+diner_03,POI,POIName,,x,Colonel Bucketface
+downtown_filler_01,POI,POIName,,x,Doors Plus
+downtown_filler_03,POI,POIName,,x,Tort's Law
+downtown_strip_07,POI,POIName,,x,No Birds Car Rental
+fastfood_02,POI,POIName,,x,Hangry Jocks
+fastfood_05,POI,POIName,,x,Evil Boys Pizza
+gas_station_01,POI,POIName,,x,Shell Service Station
+gas_station_02,POI,POIName,,x,Ampol Service Station
+gas_station_03,POI,POIName,,x,BP Service Station
+gas_station_05,POI,POIName,,x,"Caltex, Foolworths Express Service Station"
+gas_station_09,POI,POIName,,x,Shell Service Station
+gas_station_10,POI,POIName,,x,Caltex Service Station
+rural_drive_in_01,POI,POIName,,x,Russell Coyts Drive In Cinema
+store_autoparts_01,POI,POIName,,x,Supercrap Auto
+store_bakery_01,POI,POIName,,x,Tip Top Bakery
+store_book_01,POI,POIName,,x,Dymwits Bookstore
+store_clothing_01,POI,POIName,,x,"Camping, Boating, Fishing"
+store_clothing_02,POI,POIName,,x,not OK-Mart
+store_discount_01,POI,POIName,,x,Dollars and Sense
+store_electronics_01,POI,POIName,,x,Orificeworks Office Supplies
+store_electronics_02,POI,POIName,,x,BJ Hifi Superstore
+store_grocery_01,POI,POIName,,x,Foolworths Grocery Store
+store_grocery_02,POI,POIName,,x,Moles Grocery Store
+store_grocery_03,POI,POIName,,x,Foolworths Convenience Store
+store_hardware_02,POI,POIName,,x,Runnings Warhouse
+warehouse_07,POI,POIName,,x,Clunky Oil & Chemical Company Inc
