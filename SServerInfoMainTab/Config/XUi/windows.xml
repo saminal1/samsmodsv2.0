@@ -124,7 +124,7 @@ windows.xml
 						</rect>
 
 						<rect controller="TabSelectorTab" tab_key="Map">
-							<texture depth="2" pos="450,-325" width="640" height="640" pivot="center" texture="@https://images2.imgbox.com/9e/f1/YCcOPSfc_o.png"/>
+							<texture depth="2" pos="450,-325" width="640" height="640" pivot="center" texture="@https://images2.imgbox.com/5c/27/e38CL9dN_o.png"/>
 						</rect>
 
 					</rect>
