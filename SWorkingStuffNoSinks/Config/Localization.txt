@@ -24,8 +24,4 @@ wallLight01Player,blocks,Light,,,Warehouse Outdoor Light
 fluorescentLightPlayer,blocks,Light,,,Hanging Fluorescent Light
 trackLightPlayer,blocks,Light,,,Track Light
 chandelierLightPlayer,blocks,Light,,,Chandelier
-sinkKitchenWorking,blocks,Block,,,Working Kitchen Sink
-sinkCounterWorking,blocks,Block,,,Sink with Water Filter
-FilterSinkDesc,blocks,Block,,,"Craft this sink to have quicker access to water. Runs a little faster than the other working sink."
-KitchenSinkDesc,blocks,Block,,,"Craft this sink to have quicker access to water. It doesn't contain a filter, so you'll only get murky water out of it, but it's better than nothing, right?"
 stoveWorkingDesc,blocks,Block,,,"A place to cook food."
