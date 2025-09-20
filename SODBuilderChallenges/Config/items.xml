@@ -1,0 +1,22 @@
+<!--
+Sam's Outback Builder Challenges
+2.0.0
+by saminal
+
+items.xml
+-->
+
+<configs>
+    <append xpath="/items">
+        <item name="odBuilderStarter">
+            <property name="Extends" value ="noteTestersDelightAdmin"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="mineCandyTin"/>
+            <property name="CustomIconTint" value="cf0000"/>
+            <property class="Action0">
+                <property name="Create_item" value="workstationSkillMagazine,harvestingToolsSkillMagazine"/>
+                <property name="Create_item_count" value="4,8"/>
+            </property>
+        </item>
+    </append>
+</configs>

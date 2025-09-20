@@ -1,0 +1,30 @@
+Key,File,Type,UsedInMainMenu,english
+BuilderChallengesHeader,challenges,Challenge Group,,Outback Decay Builder
+challengeGroupBuilderQuests,challenges,Challenge Group,,Builder Challenges
+challengeRewardBuilderQuest,challenges,Challenge Group,,Builder Challenges Rewards
+builder_challenge_name_group,challenges,Challenge Group,,Builder Challenges
+builder_challenge_name_forge,challenges,Challenge,,Build a Forge
+builder_challenge_name_workbench,challenges,Challenge,,Build a Workbench
+builder_challenge_name_toolkit,challenges,Challenge,,Make a ToolKit
+builder_challenge_name_cobble,challenges,Challenge,,Stock up on Cobblestone
+builder_challenge_name_mixer,challenges,Challenge,,Build a Cement Mixer
+builder_challenge_name_chem,challenges,Challenge,,Build a Chem Station
+builder_challenge_name_crucible,challenges,Challenge,,Make a Crucible
+builder_challenge_subtitle_group,challenges,Challenge Group,,Outback Decay Builder
+builder_challenge_subtitle_forge,challenges,Challenge,,"You'll need a forge to make iron and steel."
+builder_challenge_subtitle_workbench,challenges,Challenge,,"You'll need a workbench to make tools."
+builder_challenge_subtitle_toolkit,challenges,Challenge,,"You'll need tools to gather resources."
+builder_challenge_subtitle_cobble,challenges,Challenge,,"You'll need a bunch of cobblestone to get started."
+builder_challenge_subtitle_mixer,challenges,Challenge,,"You'll need a cement mixer to make concrete."
+builder_challenge_subtitle_chem,challenges,Challenge,,"You'll need a chem station to make gas and paint."
+builder_challenge_subtitle_crucible,challenges,Challenge,,"You need steel."
+builder_challenge_desc,challenges,Challenge Group,,Outback Decay Builder Challenges
+builder_challenge_completion,challenges,Challenge Group,,"You're ready to build!"
+forge_reward,challenges,Challenge Group,,"Workbench!"
+workbench_reward,challenges,Challenge Group,,"Toolkit!"
+toolkit_reward,challenges,Challenge Group,,"Cobblestone!"
+cobble_reward,challenges,Challenge Group,,"Cement Mixer!"
+mixer_reward,challenges,Challenge Group,,"Chem Station!"
+chem_reward,challenges,Challenge Group,,"Crucible!"
+crucible_reward,challenges,Challenge Group,,"Steel Tools!"
+odBuilderStarter,items,item,,"Builder Edition Starter Bundle"

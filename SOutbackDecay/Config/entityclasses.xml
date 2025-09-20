@@ -1,0 +1,13 @@
+<!--
+Sam's Outback Decay
+v21.0.0
+by saminal
+
+entityclasses.xml
+-->
+
+<configs>
+
+    <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">,odGiftBundle</append>
+
+</configs>

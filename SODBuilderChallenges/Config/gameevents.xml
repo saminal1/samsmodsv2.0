@@ -1,0 +1,93 @@
+<!--
+Sam's Outback Decay Builder Challenges
+1.0.0
+by saminal
+
+gameevents.xml
+-->
+
+<configs>
+
+    <insertAfter xpath="gameevents/action_sequence[@name='reward_demolition_zombie_slayer']">
+        <action_sequence name="challenge_group_reward_builder_challenges">
+            <property name="action_type" value="Game" />
+
+            <action class="AddQuest">
+                <property name="quest" value="challengegroup_reward_builder_challenges" parma1="quest" />
+                <property name="notify" value="false" />
+            </action>
+        </action_sequence>
+
+        <action_sequence name="reward_builder_challenge_forge">
+            <property name="allow_user_trigger" value="false" />
+            <property name="action_type" value="Game" />
+
+            <action class="AddItems">
+                <property name="added_items" value="workstationSkillMagazine"/>
+            	<property name="added_item_counts" value="5" />
+            </action>
+        </action_sequence>
+
+        <action_sequence name="reward_builder_challenge_workbench">
+            <property name="allow_user_trigger" value="false" />
+            <property name="action_type" value="Game" />
+
+            <action class="AddItems">
+                <property name="added_items" value="harvestingToolsSkillMagazine,salvageToolsSkillMagazine,repairToolsSkillMagazine"/>
+            	<property name="added_item_counts" value="4,5,3" />
+            </action>
+        </action_sequence>
+
+        <action_sequence name="reward_builder_challenge_toolkit">
+            <property name="allow_user_trigger" value="false" />
+            <property name="action_type" value="Game" />
+
+            <action class="AddItems">
+                <property name="added_items" value="workstationSkillMagazine"/>
+            	<property name="added_item_counts" value="15" />
+            </action>
+        </action_sequence>
+
+        <action_sequence name="reward_builder_challenge_cobble">
+            <property name="allow_user_trigger" value="false" />
+            <property name="action_type" value="Game" />
+
+            <action class="AddItems">
+                <property name="added_items" value="workstationSkillMagazine"/>
+            	<property name="added_item_counts" value="5" />
+            </action>
+        </action_sequence>
+
+        <action_sequence name="reward_builder_challenge_mixer">
+            <property name="allow_user_trigger" value="false" />
+            <property name="action_type" value="Game" />
+
+            <action class="AddItems">
+                <property name="added_items" value="workstationSkillMagazine"/>
+            	<property name="added_item_counts" value="10" />
+            </action>
+        </action_sequence>
+
+        <action_sequence name="reward_builder_challenge_chem">
+            <property name="allow_user_trigger" value="false" />
+            <property name="action_type" value="Game" />
+
+            <action class="AddItems">
+                <property name="added_items" value="workstationSkillMagazine"/>
+            	<property name="added_item_counts" value="25" />
+            </action>
+        </action_sequence>
+
+        <action_sequence name="reward_builder_challenge_crucible">
+            <property name="allow_user_trigger" value="false" />
+            <property name="action_type" value="Game" />
+
+            <action class="AddItems">
+                <property name="added_items" value="meleeToolAllSteelParts"/>
+            	<property name="added_item_counts" value="5" />
+            </action>
+        </action_sequence>
+    
+    </insertAfter>
+
+</configs>

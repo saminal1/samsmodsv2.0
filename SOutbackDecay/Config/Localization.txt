@@ -118,3 +118,5 @@ cntPickupTruck3Wide01RandomHelper,blocks,block,,= Ute 3 Wide = Random Helper
 cntPickupTruck3Wide01Red,blocks,block,,Red Ute
 cntPickupTruck3Wide01White,blocks,block,,White Ute
 cntPickupTruck3Wide01Yellow,blocks,block,,Yellow Ute
+odGiftMelee,items,item,,Russell Coight Spanks You
+odGiftBundle,items,item,,Outback Decay Thanks You

@@ -1,0 +1,78 @@
+<!--
+Sam's Outback Builder Challenges
+2.0.0
+by saminal
+
+challenges.xml
+-->
+
+<configs>
+    <insertAfter xpath="challenges/challenge_category[@name='Twitch']">
+        <challenge_category name="Builder" title_key="BuilderChallengesHeader" icon="ui_game_symbol_hammer" display_key="weather"/>
+    </insertAfter>
+
+    <insertAfter xpath="challenges/challenge_group[@name='Silly']">
+        <challenge_group category="Builder" name="BuilderQuests" title_key="challengeGroupBuilderQuests" reward_text_key="challengeRewardBuilderQuest" reward_event="challenge_group_reward_builder" link_challenges="true" hidden_by="Basics"/>
+    </insertAfter>
+
+    <append xpath="challenges">
+		<!-- *** 01 BUILD FORGE -->
+	<challenge name="builder_challenge_name_forge" title_key="builder_challenge_name_forge" icon="ui_game_symbol_forge" group="BuilderQuests"
+		short_description_key="builder_challenge_subtitle_forge" description_key="builder_challenge_subtitle_forge"
+		hint="builder_challenge_subtitle_forge"
+		reward_text_key="forge_reward" reward_event="reward_builder_challenge_forge">
+        <objective type="BlockPlace" block="forge" count="1"/>
+	</challenge>
+
+		<!-- *** 02 BUILD WORKBENCH -->
+	<challenge name="builder_challenge_name_workbench" title_key="builder_challenge_name_workbench" icon="ui_game_symbol_tool_smithing" group="BuilderQuests"
+		short_description_key="builder_challenge_subtitle_workbench" description_key="builder_challenge_subtitle_workbench"
+		hint="builder_challenge_subtitle_workbench"
+		reward_text_key="workbench_reward" reward_event="reward_builder_challenge_workbench">
+        <objective type="BlockPlace" block="workbench" count="1"/>
+	</challenge>
+
+		<!-- *** 03 CRAFT TOOLKIT -->
+	<challenge name="builder_challenge_name_toolkit" title_key="builder_challenge_name_toolkit" icon="ui_game_symbol_wrench" group="BuilderQuests"
+		short_description_key="builder_challenge_subtitle_toolkit" description_key="builder_challenge_subtitle_toolkit"
+		hint="builder_challenge_subtitle_toolkit"
+		reward_text_key="toolkit_reward" reward_event="reward_builder_challenge_toolkit">
+        <objective type="Craft" item="meleeToolRepairT1ClawHammer"/>
+        <objective type="Craft" item="meleeToolAxeT1IronFireaxe"/>
+        <objective type="Craft" item="meleeToolPickT1IronPickaxe"/>
+	</challenge>
+
+		<!-- *** 04 CRAFT COBBLESTONE -->
+	<challenge name="builder_challenge_name_cobble" title_key="builder_challenge_name_cobble" icon="ui_game_symbol_brick" group="BuilderQuests"
+		short_description_key="builder_challenge_subtitle_cobble" description_key="builder_challenge_subtitle_cobble"
+		hint="builder_challenge_subtitle_cobble"
+		reward_text_key="cobble_reward" reward_event="reward_builder_challenge_cobble">
+        <objective type="Craft" item="cobblestoneShapes" count="200"/>
+	</challenge>
+
+		<!-- *** 05 BUILD CEMENT MIXER -->
+	<challenge name="builder_challenge_name_mixer" title_key="builder_challenge_name_mixer" icon="ui_game_symbol_cement" group="BuilderQuests"
+		short_description_key="builder_challenge_subtitle_mixer" description_key="builder_challenge_subtitle_mixer"
+		hint="builder_challenge_subtitle_mixer"
+		reward_text_key="mixer_reward" reward_event="reward_builder_challenge_mixer">
+        <objective type="BlockPlace" block="cementMixer" count="1"/>
+	</challenge>
+
+		<!-- *** 06 BUILD CHEM STATION -->
+	<challenge name="builder_challenge_name_chem" title_key="builder_challenge_name_chem" icon="ui_game_symbol_science" group="BuilderQuests"
+		short_description_key="builder_challenge_subtitle_chem" description_key="builder_challenge_subtitle_chem"
+		hint="builder_challenge_subtitle_chem"
+		reward_text_key="chem_reward" reward_event="reward_builder_challenge_chem">
+        <objective type="BlockPlace" block="chemistryStation" count="1"/>
+	</challenge>
+
+		<!-- *** 08 CRAFT CRUCIBLE -->
+	<challenge name="builder_challenge_name_crucible" title_key="builder_challenge_name_crucible" icon="ui_game_symbol_ibeam" group="BuilderQuests"
+		short_description_key="builder_challenge_subtitle_crucible" description_key="builder_challenge_subtitle_crucible"
+		hint="builder_challenge_subtitle_crucible"
+		reward_text_key="crucible_reward" reward_event="reward_builder_challenge_crucible">
+        <objective type="Craft" item="toolForgeCrucible" count="1"/>
+	</challenge>
+    </append>
+
+</configs>

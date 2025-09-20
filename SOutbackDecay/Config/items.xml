@@ -221,7 +221,54 @@ items.xml
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
             </effect_group>
         </item>
+
+        <item name="noteTestersDelightAdmin">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="resourcePaper"/>
+            <property name="ItemTypeIcon" value="computer"/>
+            <property name="CustomIconTint" value="210,0,210"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="1"/>
+            <property name="Weight" value="0"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Group" value="Special Items"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Create_item" value="resourcePaper"/>
+                <property name="Create_item_count" value="1"/>
+            </property>
+        </item>
+
+        <item name="odGiftMelee">
+            <property name="Extends" value="noteTestersDelightAdmin"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="mineCandyTin"/>
+            <property name="CustomIconTint" value="789955"/>
+            <property class="Action0">
+                <property name="Create_item" value="resourcePaper"/>
+                <property name="Create_item_count" value="0"/>
+                <property name="Random_item" value="meleeWpnBladeT1HuntingKnife,meleeWpnSledgeT1IronSledgehammer,meleeWpnClubT1BaseballBat,meleeWpnSpearT1IronSpear,meleeWpnBatonT0PipeBaton,meleeWpnKnucklesT1IronKnuckles"/>
+                <property name="Random_item_count" value="3-4,3-4,3-4,3-4,6,3-4"/>
+                <property name="Random_count" value="1"/>
+            </property>
+        </item>
+
+        <item name="odGiftBundle">
+            <property name="Extends" value ="noteTestersDelightAdmin"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="mineCandyTin"/>
+            <property name="CustomIconTint" value="ec95a9"/>
+            <property class="Action0">
+                <property name="Create_item" value="vehicleBicyclePlaceable,questRewardT1BookBundle,foodVegetableStew,odGiftMelee"/>
+                <property name="Create_item_count" value="1,1,4,1"/>
+            </property>
+        </item>
     </append>
+
 
     <!-- <append xpath="items/item[@name='drinkJarBeerSchematic']/effect_group[@tiered='false']">
         <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkJarBeerWRDA" operation="set" value="1"/>
